@@ -1,0 +1,60 @@
+header {
+    .logo {
+        padding-top: 1.25em;
+        padding-bottom: 1.25em;
+        a {
+            display: inline-block;
+        }
+    }
+    .redes-sociales {
+        text-align: right;
+        line-height: 5em;
+        a {
+            border-radius: 50%;
+            width: 2.5em;
+            height: 2.5em;
+            text-align: center  ;
+            line-height: 2.5em;
+            display: inline-block;
+            background: navy;
+            color: white;
+            margin-left: 1.25em;
+        }
+        .facebook{
+            background: #3b5998;
+        }
+        .twitter{
+            background: #1da1f2;
+        }
+        .youtube{
+            background: #e1306c;
+        }
+    }
+    .menu {
+        background: $azul_primario;
+        margin-bottom: 1.25em;
+        ul {
+            list-style: none;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            li {
+                display: inline-block;
+                float: left;
+                a {
+                    display: inline-block;
+                    padding: 1em 1.25em;
+                    color: white;
+                    text-decoration: none;
+                    font-size: 0.87em;
+                    &:hover {
+                        background: $azul_secundario;
+                        text-decoration: none;
+
+                    }
+                }
+            }
+        }
+
+    }
+}

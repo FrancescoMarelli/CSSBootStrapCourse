@@ -1,0 +1,31 @@
+$fondo: #f2f2f2;
+$azul_primario: #5f6ad4;
+$azul_secundario: #7780da;
+$gris_oscuro: #3b3b3b;
+$gris_claro: #909090;
+$texto: #292929;
+
+$font-family: 'Montserrat', sans-serif;
+$font-size: 16px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: $fondo;
+    font-size: $font-size;
+    font-family: $font-family;
+}
+
+.ad {
+    margin-bottom: 1.25em;
+    text-align: center;
+}
+
+a{
+    color:$azul_primario
+}
+
+@import 'header';

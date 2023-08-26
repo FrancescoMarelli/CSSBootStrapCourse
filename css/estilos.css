@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f2f2f2;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ad {
+  margin-bottom: 1.25em;
+  text-align: center;
+}
+
+a {
+  color: #5f6ad4;
+}
+
+header .logo {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+}
+header .logo a {
+  display: inline-block;
+}
+header .redes-sociales {
+  text-align: right;
+  line-height: 5em;
+}
+header .redes-sociales a {
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  text-align: center;
+  line-height: 2.5em;
+  display: inline-block;
+  background: navy;
+  color: white;
+  margin-left: 1.25em;
+}
+header .redes-sociales .facebook {
+  background: #3b5998;
+}
+header .redes-sociales .twitter {
+  background: #1da1f2;
+}
+header .redes-sociales .youtube {
+  background: #e1306c;
+}
+header .menu {
+  background: #5f6ad4;
+  margin-bottom: 1.25em;
+}
+header .menu ul {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+header .menu ul li {
+  display: inline-block;
+  float: left;
+}
+header .menu ul li a {
+  display: inline-block;
+  padding: 1em 1.25em;
+  color: white;
+  text-decoration: none;
+  font-size: 0.87em;
+}
+header .menu ul li a:hover {
+  background: #7780da;
+  text-decoration: none;
+}
