@@ -15,9 +15,15 @@
 
 .main{
     .titulo-seccion{
-        
+        //margin:0;
+    }
+    .single-post{
+        .categorias{
+            margin-bottom: 1.875em; 
+        }
     }
     .posts{
+        
         .post  {
             margin-bottom: 1.875em;
             .contenedor{
@@ -34,7 +40,7 @@
                     padding: 1.25em;
                     .titulo{
                         line-height: 1.125em;
-                        margin-bottom: 1.125em;
+                        margin-bottom: 1.25em;
                         font-size: 1.125em;
                         margin-top: 0;
                         a{
@@ -42,7 +48,8 @@
                         }
                     }
                     .fecha{
-                        color:$gris_oscuro;
+                        color:$gris_claro;
+                        font-weight: lighter;
                         font-size: 0.875em;
                         margin-bottom: 1.25em;
                     }
@@ -69,6 +76,7 @@
                             font-size: 1em;
                             font-weight: bold;
                             margin-right: 1.25em;
+                            
                             &:hover{
                                 color: $azul_primario;
                                 text-decoration: none;

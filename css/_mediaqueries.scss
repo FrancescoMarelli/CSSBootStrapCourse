@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px){
+//         width: 100%;
+    header{
+        .logo{
+            text-align: center;
+        }
+        .redes-sociales{
+            display: none;
+        }
+        .menu{
+            ul{
+                text-align: center;
+                li{
+                    float:none;
+                }
+            }
+        }
+    }
+    .main{
+        .posts{
+            .post{
+                .contenedor{
+                    .info{
+                        .extracto{
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .paginacion{
+        text-align: center;
+    }
+    .sidebar{
+        display: none;
+    }
+    footer{
+        .menu{
+            ul{
+                text-align: center;
+                li{
+                    float:none;
+                }
+            }
+        }
+    }
+}

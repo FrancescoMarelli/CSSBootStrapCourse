@@ -89,6 +89,9 @@ header .menu ul li a:hover {
   margin-bottom: 1.25em;
 }
 
+.main .single-post .categorias {
+  margin-bottom: 1.875em;
+}
 .main .posts .post {
   margin-bottom: 1.875em;
 }
@@ -108,7 +111,7 @@ header .menu ul li a:hover {
 }
 .main .posts .post .contenedor .info .titulo {
   line-height: 1.125em;
-  margin-bottom: 1.125em;
+  margin-bottom: 1.25em;
   font-size: 1.125em;
   margin-top: 0;
 }
@@ -116,7 +119,8 @@ header .menu ul li a:hover {
   color: #3b3b3b;
 }
 .main .posts .post .contenedor .info .fecha {
-  color: #3b3b3b;
+  color: #909090;
+  font-weight: lighter;
   font-size: 0.875em;
   margin-bottom: 1.25em;
 }
@@ -296,4 +300,34 @@ footer .copyright p {
   padding: 0.625em;
   text-align: center;
   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  header .logo {
+    text-align: center;
+  }
+  header .redes-sociales {
+    display: none;
+  }
+  header .menu ul {
+    text-align: center;
+  }
+  header .menu ul li {
+    float: none;
+  }
+  .main .posts .post .contenedor .info .extracto {
+    height: auto;
+  }
+  .paginacion {
+    text-align: center;
+  }
+  .sidebar {
+    display: none;
+  }
+  footer .menu ul {
+    text-align: center;
+  }
+  footer .menu ul li {
+    float: none;
+  }
 }
