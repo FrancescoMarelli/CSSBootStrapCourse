@@ -8,7 +8,7 @@
         font-weight: normal;
         color: $gris_oscuro;
         padding-bottom: 0.62em;
-        border-bottom: 4px solid $gris_claro;
+        border-bottom: 4px solid  rgb(57, 167, 57);;
         margin-bottom: 1.25em;
     }
 }
@@ -21,7 +21,7 @@
         .post  {
             margin-bottom: 1.875em;
             .contenedor{
-                background-color: antiquewhite;
+                background-color: rgb(255, 247, 232);
                 box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
                 .thumb{
                     img{
