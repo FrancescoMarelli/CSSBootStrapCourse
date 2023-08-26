@@ -201,3 +201,67 @@ header .menu ul li a:hover {
   background: #7780da;
   text-decoration: none;
 }
+
+.sidebar .widget {
+  margin-bottom: 2.5em;
+}
+.sidebar .widget.redes-sociales {
+  overflow: hidden;
+}
+.sidebar .widget.redes-sociales a {
+  float: left;
+  width: 33.33333%;
+  padding: 1.25em;
+  background: #000;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+.sidebar .widget.redes-sociales a:hover {
+  text-decoration: none;
+}
+.sidebar .widget.redes-sociales a.youtube {
+  background: #e1306c;
+}
+.sidebar .widget.redes-sociales a.facebook {
+  background: #3b5998;
+}
+.sidebar .widget.redes-sociales a.twitter {
+  background: #1da1f2;
+}
+.sidebar .widget.redes-sociales a .icono {
+  width: 100%;
+  font-size: 2.5em;
+  margin-bottom: 0.125em;
+}
+.sidebar .widget.boletin .formulario {
+  background-color: #485a7e;
+  text-align: center;
+  padding: 1.25em;
+}
+.sidebar .widget.boletin .formulario label {
+  color: white;
+  display: block;
+  margin-bottom: 1.25em;
+  font-weight: normal;
+}
+.sidebar .widget.boletin .formulario input[type=email] {
+  text-align: center;
+  padding: 0.625em;
+  font-size: 1.125em;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  width: 100%;
+  border: none;
+  margin-bottom: 1.25em;
+}
+.sidebar .widget.boletin .formulario input[type=submit] {
+  background: rgb(57, 167, 57);
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  padding: 0.625em 1.875em;
+  border: none;
+  color: white;
+}
