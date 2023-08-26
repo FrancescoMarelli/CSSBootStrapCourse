@@ -1,0 +1,85 @@
+.main,
+.sidebar,
+.titulo-seccion{
+    h3{
+        font-family: $font-family;
+        font-size: 1.5em;
+        line-height: 1.5em;
+        font-weight: normal;
+        color: $gris_oscuro;
+        padding-bottom: 0.62em;
+        border-bottom: 4px solid $gris_claro;
+        margin-bottom: 1.25em;
+    }
+}
+
+.main{
+    .titulo-seccion{
+        div{
+            padding: 0;
+        }
+    }
+    .posts{
+        .post  {
+            margin-bottom: 1.875em;
+            .contenedor{
+                background-color: antiquewhite;
+                box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+                .thumb{
+                    img{
+                        width: 100%;
+                        vertical-align: top;
+                        height: auto;
+                    }
+                }
+                .info{
+                    padding: 1.25em;
+                    .titulo{
+                        line-height: 1.125em;
+                        margin-bottom: 1.125em;
+                        font-size: 1.125em;
+                        a{
+                            color: $gris_oscuro;
+                        }
+                    }
+                    .fecha{
+                        color:$gris_oscuro;
+                        font-size: 0.875em;
+                        margin-bottom: 1.25em;
+                    }
+                    .extracto{
+                        color: $texto;
+                        font-size: 1em;
+                        max-height: 8.125em;
+                        height: 8.125em;
+                        margin-bottom: 1.25em;
+                        overflow: hidden;
+                        &:hover {
+                            overflow: auto;
+                        }
+                    }
+                    .categorias{
+                        ul{
+                            list-style: none;
+                            li{
+                                display: inline-block;
+                            }
+                        }
+                        a{
+                            color: $gris_claro;
+                            font-size: 1em;
+                            font-weight: bold;
+                            margin-right: 1.25em;
+                            &:hover{
+                                color: $azul_primario;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+}
