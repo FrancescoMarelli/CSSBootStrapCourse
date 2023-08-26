@@ -89,9 +89,6 @@ header .menu ul li a:hover {
   margin-bottom: 1.25em;
 }
 
-.main .titulo-seccion div {
-  padding: 0;
-}
 .main .posts .post {
   margin-bottom: 1.875em;
 }
@@ -113,6 +110,7 @@ header .menu ul li a:hover {
   line-height: 1.125em;
   margin-bottom: 1.125em;
   font-size: 1.125em;
+  margin-top: 0;
 }
 .main .posts .post .contenedor .info .titulo a {
   color: #3b3b3b;
@@ -147,5 +145,59 @@ header .menu ul li a:hover {
 }
 .main .posts .post .contenedor .info .categorias a:hover {
   color: #5f6ad4;
+  text-decoration: none;
+}
+.main .paginacion ul {
+  list-style: none;
+  overflow: hidden;
+  margin-bottom: 1.25em;
+  font-size: 1em;
+}
+.main .paginacion ul li {
+  float: left;
+  margin-right: 0.62em;
+  background: #3b3b3b;
+  color: #fff;
+  font-size: 1.125em;
+  line-height: 1.125em;
+}
+.main .paginacion ul li.disabled {
+  padding: 0.62em 0.937em;
+  font-size: 1.125em;
+  line-height: 1.125em;
+}
+.main .paginacion ul li a {
+  background: #5f6ad4;
+  color: #fff;
+  line-height: 1.125em;
+  display: inline-block;
+  padding: 0.62em 0.937em;
+}
+.main .paginacion ul li a:hover {
+  background: #7780da;
+  text-decoration: none;
+}
+.main .paginacion .wp-pagenavi {
+  margin-bottom: 1.25em;
+}
+.main .paginacion .wp-pagenavi .pages,
+.main .paginacion .wp-pagenavi span {
+  background: #3b3b3b;
+  color: #fff;
+  margin-right: 0.62em;
+  font-size: 1.125em;
+  line-height: 1.125;
+  padding: 0.62em 0.937em;
+}
+.main .paginacion .wp-pagenavi a {
+  background: #5f6ad4;
+  color: #fff;
+  line-height: 1.125em;
+  display: inline-block;
+  padding: 0.62em 0.937em;
+  margin-right: 0.62em;
+}
+.main .paginacion .wp-pagenavi a:hover {
+  background: #7780da;
   text-decoration: none;
 }

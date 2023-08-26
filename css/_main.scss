@@ -15,9 +15,7 @@
 
 .main{
     .titulo-seccion{
-        div{
-            padding: 0;
-        }
+        
     }
     .posts{
         .post  {
@@ -38,6 +36,7 @@
                         line-height: 1.125em;
                         margin-bottom: 1.125em;
                         font-size: 1.125em;
+                        margin-top: 0;
                         a{
                             color: $gris_oscuro;
                         }
@@ -81,5 +80,67 @@
 
             }
         }
+    }
+    .paginacion{
+        
+        ul{
+            list-style: none;
+            overflow: hidden;
+            margin-bottom: 1.25em;
+            font-size: 1em;
+            li{
+                float: left;
+                margin-right: 0.62em;
+                background: $gris_oscuro;
+                color: #fff;
+                font-size: 1.125em;
+                line-height: 1.125em;
+                &.disabled{
+                    padding: 0.62em 0.937em;
+                    font-size: 1.125em;
+                    line-height: 1.125em;
+                }
+                a{
+                    background: $azul_primario;
+                    color: #fff;
+                    line-height: 1.125em;
+                    display: inline-block;
+                    padding: 0.62em 0.937em;
+                    
+                    &:hover{
+                        background: $azul_secundario;
+                        text-decoration: none;
+                    }
+
+                }
+            }
+        }
+        .wp-pagenavi{
+            margin-bottom: 1.25em;
+            .pages,
+            span{
+                background: $gris_oscuro;
+                color: #fff;
+                margin-right: 0.62em;
+                font-size: 1.125em;
+                line-height: 1.125;
+                padding: 0.62em 0.937em;
+            }
+            a{
+                background: $azul_primario;
+                color: #fff;
+                line-height: 1.125em;
+                display: inline-block;
+                padding: 0.62em 0.937em;
+                margin-right: 0.62em;
+                &:hover{
+                    background: $azul_secundario;
+                    text-decoration: none;
+                }
+
+            }
+
+        }
+
     }
 }
